@@ -1,0 +1,28 @@
+$main-color: #10DC97;
+
+.posts {
+  &__load-more {
+    color: $main-color;
+    background-color: transparent;
+
+    border: 2px solid $main-color;
+    border-radius: 50px;
+
+    width: 100px;
+    height: 100px;
+
+    display: block;
+
+    font-size: 14px;
+
+    margin: auto;
+
+    cursor: pointer;
+    transition: all 230ms ease;
+
+    &:hover {
+      background-color: $main-color;
+      color: #fff;
+    }
+  }
+}

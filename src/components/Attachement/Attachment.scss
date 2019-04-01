@@ -1,0 +1,9 @@
+.attachement-list {
+  display: flex;
+  margin-top: 15px;
+  max-width: 40%;
+
+  &__item {
+    margin-right: 5px;
+  }
+}
